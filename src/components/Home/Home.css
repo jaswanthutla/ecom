@@ -1,9 +1,14 @@
-.main-container{
+.main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    height: 100%; /* Ensure it takes full height of its parent */
+    min-height: 100vh; /* Fallback to ensure it covers the viewport */
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+  }
 
 .main-heading {
     font-size: 2.5rem;  /* Large text */

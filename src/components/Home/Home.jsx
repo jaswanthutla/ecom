@@ -13,7 +13,7 @@ const Home = () => {
       backgroundImage: `url(${HomePage2})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height: '90vh'
+      height: '100vh'
     }}>
       <h1 className='main-heading'>Shop Smart, Save More – Explore Our Collections</h1><br/>
       <button onClick={onChange}>Shop More</button>
